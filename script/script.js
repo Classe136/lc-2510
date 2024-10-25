@@ -69,3 +69,18 @@ console.log(calcolo);
 //numero convertito in stringa con 2 decimali
 let costo = 200.5678;
 console.log(costo.toFixed(2));
+
+//Metodi stringhe
+
+let hello = "hello world";
+
+console.log(hello.toLocaleUpperCase());
+console.log(hello.length);
+
+let index = hello.indexOf("w");
+console.log(index);
+
+let sottoStringa = hello.slice(index);
+console.log(sottoStringa);
+
+console.log(hello.replace(sottoStringa, firstName));
